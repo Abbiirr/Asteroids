@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package game;
 
 import javafx.scene.layout.Pane;
@@ -26,4 +27,7 @@ public class ProjectileGenerator {
         generateAsteroids(asteroids);
         renderAsteroids(asteroids,gameWindow);
     }
+=======
+package game;public class ProjectileGenerator {
+>>>>>>> master
 }
