@@ -1,4 +1,4 @@
-package sample;
+package game;
 
 import javafx.scene.shape.Polygon;
 
@@ -6,8 +6,13 @@ import java.util.Random;
 
 public class Asteroid extends HeavenlyBody {
 
-    Asteroid() {
+    public Asteroid() {
         super(new AsteroidCreator().createAsteroids(), 0, 0);
+        this.getAsteroidAngle();
+    }
+
+    public Asteroid(Polygon polygon, int x, int y) {
+        super(polygon, x, y);
         this.getAsteroidAngle();
     }
 
