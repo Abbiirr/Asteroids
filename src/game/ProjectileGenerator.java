@@ -31,5 +31,5 @@ public class ProjectileGenerator {
         generateAsteroids(asteroids);
         renderAsteroids(asteroids, gameWindow);
     }
-}
 
+}
