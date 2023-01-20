@@ -26,9 +26,13 @@ bin/
 .vscode/
 
 ### Mac OS ###
+<<<<<<< HEAD
 .DS_Store
 *.class
 
 .idea/
 
 out/
+=======
+.DS_Store
+>>>>>>> master
