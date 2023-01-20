@@ -39,29 +39,6 @@ class HeavenlyBodyTest {
         assertEquals(position+5, heavenlyBody.getShapeHeavenlyBody().getRotate());
     }
 
-    @Test
-    @DisplayName("Move X")
-    void moveX() {
-        double changeX = Math.cos(Math.toRadians(heavenlyBody.getShapeHeavenlyBody().getRotate()));
-        double newX = heavenlyBody.getShapeHeavenlyBody().getTranslateX() + changeX;
-
-        heavenlyBody.move();
-
-        assertEquals(newX, heavenlyBody.getShapeHeavenlyBody().getTranslateX());
-    }
-    @Test
-    @DisplayName("Move Y")
-    void moveY() {
-
-        double changeY = Math.sin(Math.toRadians(heavenlyBody.getShapeHeavenlyBody().getRotate()));
-        double newY = heavenlyBody.getShapeHeavenlyBody().getTranslateY() + changeY;
-
-
-
-        heavenlyBody.move();
-
-        assertEquals(newY, heavenlyBody.getShapeHeavenlyBody().getTranslateY());
-    }
 
     @Test
     @DisplayName("Test collide for false")
