@@ -36,3 +36,5 @@ out/
 =======
 .DS_Store
 >>>>>>> master
+
+*.jar
