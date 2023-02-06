@@ -26,8 +26,8 @@ public class Asteroid extends HeavenlyBody {
         double changeX = Math.cos(Math.toRadians(this.getShapeHeavenlyBody().getRotate()));
         double changeY = Math.sin(Math.toRadians(this.getShapeHeavenlyBody().getRotate()));
 
-        this.getShapeHeavenlyBody().setTranslateX(getShapeHeavenlyBody().getTranslateX() + changeX * 0.5);
-        this.getShapeHeavenlyBody().setTranslateY(this.getShapeHeavenlyBody().getTranslateY() + changeY * 0.5);
+//        this.getShapeHeavenlyBody().setTranslateX(getShapeHeavenlyBody().getTranslateX() + changeX * 0.5);
+//        this.getShapeHeavenlyBody().setTranslateY(this.getShapeHeavenlyBody().getTranslateY() + changeY * 0.5);
 
         if (this.getShapeHeavenlyBody().getTranslateX() < 0) {
             this.getShapeHeavenlyBody().setTranslateX(this.getShapeHeavenlyBody().getTranslateX() - Main.WIDTH);
